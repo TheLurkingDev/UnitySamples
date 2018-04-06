@@ -21,3 +21,5 @@ File > Save Project
 Git Large File Storage (LFS) uses Git attributes to track large files with Git, while keeping them out of your actual repository. Note that this will only work if you use GitHub or a server that supports the Git LFS API.
 
 To set it up, download and install the Git LFS command line extension as documented on the Git LFS site.
+
+https://git-lfs.github.com/
