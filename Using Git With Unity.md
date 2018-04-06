@@ -23,3 +23,19 @@ Git Large File Storage (LFS) uses Git attributes to track large files with Git, 
 To set it up, download and install the Git LFS command line extension as documented on the Git LFS site.
 
 https://git-lfs.github.com/
+
+Getting Started
+Download and install the Git command line extension. You only have to set up Git LFS once.
+
+git lfs install
+Select the file types you'd like Git LFS to manage (or directly edit your .gitattributes). You can configure additional file extensions at anytime.
+
+git lfs track "*.psd"
+Make sure .gitattributes is tracked
+
+git add .gitattributes
+There is no step three. Just commit and push to GitHub as you normally would.
+
+git add file.psd
+git commit -m "Add design file"
+git push origin master
