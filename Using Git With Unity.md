@@ -3,6 +3,8 @@ We recommend GitHub’s Unity .gitignore template.
 
 In addition, depending on the platforms you intend to use for development, you should gitignore common files for macOS and/or Windows.
 
+Put .gitignore in the working directory. It doesn't work if you put it in the .git (repository) directory.
+
 2. Configure Unity For Version Control
 With your project open in the Unity editor:
 
